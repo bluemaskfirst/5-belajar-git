@@ -12,4 +12,5 @@ console.log(multiply(2, 2));
 const divide = (a, b) = a / b;
 console.log(divide(10, 2));
 
-console.log(add(5, 5));
+const mathSin = (number) => Math.sin(number);
+console.log(mathSin(10));
